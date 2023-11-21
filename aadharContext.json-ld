@@ -16,7 +16,7 @@
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "birthday": {
             "@id": "aadhar-vocab:dateOfBirth",
-            "@type": "xsd:dateTime"
+            "@type": "xsd:integer"
           },
           "fullName": {
             "@id": "kyc-vocab:fullName",

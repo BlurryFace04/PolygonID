@@ -19,7 +19,7 @@
             "@type": "xsd:integer"
           },
           "fullName": {
-            "@id": "kyc-vocab:fullName",
+            "@id": "aadhar-vocab:fullName",
             "@type": "xsd:string"
           }
         }

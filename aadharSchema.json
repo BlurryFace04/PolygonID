@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld",
-            "jsonSchema": "https://github.com/BlurryFace04/PolygonID/blob/main/aadharSchema.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/BlurryFace04/PolygonID/main/aadharContext.json",
+            "jsonSchema": "https://raw.githubusercontent.com/BlurryFace04/PolygonID/main/aadharSchema.json"
         }
     },
     "required": [

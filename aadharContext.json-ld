@@ -5,22 +5,41 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "AadharCardCredential": {
-        "@id": "https://raw.githubusercontent.com/BlurryFace04/PolygonID/main/aadharContext.json-ld#AadharCardCredential",
+      "KYCAgeCredential": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld#KYCAgeCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "aadhar-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "dateOfBirth": {
-            "@id": "aadhar-vocab:dateOfBirth",
+          "birthday": {
+            "@id": "kyc-vocab:birthday",
             "@type": "xsd:integer"
           },
-          "fullName": {
-            "@id": "aadhar-vocab:fullName",
-            "@type": "xsd:string"
+          "documentType": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "xsd:integer"
+          }
+        }
+      },
+      "KYCCountryOfResidenceCredential": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld#KYCCountryOfResidenceCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "countryCode": {
+            "@id": "kyc-vocab:countryCode",
+            "@type": "xsd:integer"
+          },
+          "documentType": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "xsd:integer"
           }
         }
       }

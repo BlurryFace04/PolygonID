@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "AadharCardCredential": {
-        "@id": "https://raw.githubusercontent.com/BlurryFace04/PolygonID/main/aadharContext.json#AadharCardCredential",
+        "@id": "https://raw.githubusercontent.com/BlurryFace04/PolygonID/main/aadharContext.json-ld#AadharCardCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,

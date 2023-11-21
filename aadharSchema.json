@@ -116,8 +116,7 @@
 					"format": "uri"
 				},
 				"dateOfBirth": {
-					"type": "string",
-					"format": "date"
+					"type": "integer",
 				},
 				"fullName": {
 					"type": "string",

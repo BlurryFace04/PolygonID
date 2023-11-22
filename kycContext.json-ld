@@ -15,7 +15,7 @@
           "kyc-vocab": "https://github.com/BlurryFace04/claim-schema-vocab/blob/main/credentials/kyc.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "dateOfBirth": {
-            "@id": "kyc-vocab:dateOfBirth",
+            "@id": "kyc-vocab:birthday",
             "@type": "xsd:integer"
           },
           "documentType": {

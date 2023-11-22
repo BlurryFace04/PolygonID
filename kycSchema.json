@@ -125,8 +125,7 @@
         "dateOfBirth": {
           "description": "Date Of Birth",
           "title": "Date Of Birth",
-          "format": "date",
-          "type": "string"
+          "type": "integer"
         },
         "fullName": {
           "description": "Full Name",

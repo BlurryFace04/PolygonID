@@ -34,6 +34,10 @@
             "@id": "kyc-vocab:address",
             "@type": "xsd:string"
           },
+          "mobileNumber": {
+            "@id": "kyc-vocab:mobileNumber",
+            "@type": "xsd:string"
+          },
           "emailAddress": {
             "@id": "kyc-vocab:emailAddress",
             "@type": "xsd:string"

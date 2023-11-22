@@ -3,8 +3,8 @@
 	"type": "object",
 	"$metadata": {
 		"uris": {
-			"jsonLdContext": "https://github.com/BlurryFace04/PolygonID/blob/main/aadharContext.json-ld",
-			"jsonSchema": "https://github.com/BlurryFace04/PolygonID/blob/main/aadharSchema.json"
+			"jsonLdContext": "https://raw.githubusercontent.com/BlurryFace04/PolygonID/main/aadharContext.json-ld",
+			"jsonSchema": "https://raw.githubusercontent.com/BlurryFace04/PolygonID/main/aadharSchema.json"
 		}
 	},
 	"required": [

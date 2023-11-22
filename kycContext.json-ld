@@ -21,6 +21,38 @@
           "fullName": {
             "@id": "kyc-vocab:documentType",
             "@type": "xsd:string"
+          },
+          "gender": {
+            "@id": "kyc-vocab:gender",
+            "@type": "xsd:string"
+          },
+          "aadharNumber": {
+            "@id": "kyc-vocab:aadharNumber",
+            "@type": "xsd:string"
+          },
+          "address": {
+            "@id": "kyc-vocab:address",
+            "@type": "xsd:string"
+          },
+          "emailAddress": {
+            "@id": "kyc-vocab:emailAddress",
+            "@type": "xsd:string"
+          },
+          "picture": {
+            "@id": "kyc-vocab:picture",
+            "@type": "xsd:string"
+          },
+          "qrCode": {
+            "@id": "kyc-vocab:qrCode",
+            "@type": "xsd:string"
+          },
+          "fatherName": {
+            "@id": "kyc-vocab:fatherName",
+            "@type": "xsd:string"
+          },
+          "spouseName": {
+            "@id": "kyc-vocab:spouseName",
+            "@type": "xsd:string"
           }
         }
       }

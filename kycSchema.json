@@ -107,7 +107,7 @@
       "required": [
         "id",
         "dateOfBirth",
-        "documentType"
+        "fullName"
       ],
       "properties": {
         "id": {
@@ -118,8 +118,8 @@
         "dateOfBirth": {
           "type": "integer"
         },
-        "documentType": {
-          "type": "integer"
+        "fullName": {
+          "type": "string"
         }
       }
     }

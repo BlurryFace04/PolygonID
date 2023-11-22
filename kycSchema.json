@@ -105,20 +105,91 @@
     "credentialSubject": {
       "type": "object",
       "required": [
-        "id",
         "dateOfBirth",
-        "fullName"
+        "fullName",
+        "gender",
+        "aadharNumber",
+        "address",
+        "mobileNumber",
+        "emailAddress",
+        "picture",
+        "qrCode"
       ],
       "properties": {
         "id": {
-          "title": "Credential Subject ID",
-          "type": "string",
-          "format": "uri"
+          "description": "Stores the DID of the subject that owns the credential",
+          "title": "Credential subject ID",
+          "format": "uri",
+          "type": "string"
         },
         "dateOfBirth": {
-          "type": "integer"
+          "description": "Date Of Birth",
+          "title": "Date Of Birth",
+          "format": "date",
+          "type": "string"
         },
         "fullName": {
+          "description": "Full Name",
+          "title": "Full Name",
+          "minLength": 1,
+          "type": "string"
+        },
+        "gender": {
+          "description": "Gender",
+          "enum": [
+            "Male",
+            "Female",
+            "Transgender"
+          ],
+          "title": "Gender",
+          "type": "string"
+        },
+        "aadharNumber": {
+          "description": "Aadhar Number",
+          "title": "Aadhar Number",
+          "pattern": "^\\d{12}$",
+          "type": "string"
+        },
+        "address": {
+          "description": "Address",
+          "title": "Address",
+          "minLength": 1,
+          "type": "string"
+        },
+        "mobileNumber": {
+          "description": "Mobile Number",
+          "title": "Mobile Number",
+          "pattern": "^\\d{10}$",
+          "type": "string"
+        },
+        "emailAddress": {
+          "description": "Email Address",
+          "title": "Email Address",
+          "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+          "type": "string"
+        },
+        "picture": {
+          "description": "Picture",
+          "title": "Picture",
+          "pattern": "^(https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)*\\/?$",
+          "type": "string"
+        },
+        "qrCode": {
+          "description": "QR Code",
+          "title": "QR Code",
+          "pattern": "^(https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)*\\/?$",
+          "type": "string"
+        },
+        "fatherName": {
+          "description": "Father Name",
+          "title": "Father Name",
+          "minLength": 1,
+          "type": "string"
+        },
+        "spouseName": {
+          "description": "Spouse Name",
+          "title": "Spouse Name",
+          "minLength": 1,
           "type": "string"
         }
       }

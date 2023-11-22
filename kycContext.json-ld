@@ -5,7 +5,7 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "KYCAgeCredential": {
+      "AadharCardCredential": {
         "@id": "https://raw.githubusercontent.com/BlurryFace04/PolygonID/main/kycContext.json-ld#KYCAgeCredential",
         "@context": {
           "@version": 1.1,
